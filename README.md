@@ -60,7 +60,14 @@ If you are using a standard Ant-based Java project in NetBeans, follow these ste
 4. Navigate to the folder where you saved these JAR files.
 5. Highlight **all** the `.jar` files listed above and click **Open**.
 6. Expand the Libraries folder to verify they have been added successfully.
+---
 
+## ⚠️ Troubleshooting
+
+If you are using a standard Ant-based Java project in NetBeans, follow these steps to add the libraries:
+
+* ` java.lang.NoClassDefFoundError: If you get this error, you missed importing one of the JAR files. Double-check your NetBeans library folder against the list above.
+* `PDF Fonts not rendering: If your PDF is missing fonts or characters, you may need to add a Font Extension JAR (not included in this base package).
 ---
 
 ## 🚀 Quick Start Example Code
@@ -101,11 +108,3 @@ public class ReportGenerator {
         }
     }
 }
-
----
-
- ## ⚠️ Troubleshooting
-
-* java.lang.NoClassDefFoundError: If you get this error, you missed importing one of the JAR files. Double-check your NetBeans library folder against the list above.
-
-* PDF Fonts not rendering: If your PDF is missing fonts or characters, you may need to add a Font Extension JAR (not included in this base package).
