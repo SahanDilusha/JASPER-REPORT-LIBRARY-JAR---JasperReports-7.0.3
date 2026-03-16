@@ -101,3 +101,11 @@ public class ReportGenerator {
         }
     }
 }
+
+---
+
+ ## ⚠️ Troubleshooting
+
+* java.lang.NoClassDefFoundError: If you get this error, you missed importing one of the JAR files. Double-check your NetBeans library folder against the list above.
+
+* PDF Fonts not rendering: If your PDF is missing fonts or characters, you may need to add a Font Extension JAR (not included in this base package).
